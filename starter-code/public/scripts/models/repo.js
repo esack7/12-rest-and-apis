@@ -19,17 +19,11 @@ var app = app || {};
       }
     })
     .then(
-      //
-      // function(data) {
-      //   app.repo.all.push = data;
-      // }
       data => {
-        // app.repo.all = data
-        // callback();
+
         console.log(data);
         return repos.all = data
-        // app.repos.all.push(data)
-        // $.get(data.repos_url)
+
       ,
       err => {console.error(err);}
       }
